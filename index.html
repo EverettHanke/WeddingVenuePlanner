@@ -14,9 +14,9 @@
 <body>
     <h1>Wedding Venue Viewer</h1>
     <label for="filter">Filter by Food Type:</label>
-    <input type="text" id="filter" onkeyup="filterTable()" placeholder="Enter food type...">
+    <input type="text" id="filter" onkeyup="filterVenues()" placeholder="Enter food type...">
     <label for="distanceFilter">Filter by Distance:</label>
-    <input type="text" id="distanceFilter" onkeyup="filterDistance()" placeholder="Enter MAX # of miles...">
+    <input type="text" id="distanceFilter" onkeyup="filterVenues()" placeholder="Enter MAX # of miles...">
     
     
     <table id="venueTable">
@@ -209,28 +209,16 @@
             });
         }
 
-        function filterTable() {
-            const filter = document.getElementById('filter').value.toLowerCase();
-            const filteredVenues = data.venues.filter(venue =>
-                venue.food_type.toLowerCase().includes(filter)
-            );
-            loadTable(filteredVenues);
-        }
-
-        function filterDistance() 
+        function filterVenues() 
         {
-            const filter = document.getElementById('distanceFilter').value;
-            if (!filter) {
-                loadTable(data.venues);
-                return;
-            }
-            
-            const distance = parseInt(filter, 10);
-            if (isNaN(distance)) return;
+            const foodFilter = document.getElementById('filter').value.toLowerCase();
+            const distanceFilter = document.getElementById('distanceFilter').value.toLowerCase();
 
             const filteredVenues = data.venues.filter(venue => {
-                const venueDistance = parseInt(venue.distance_from_church, 10);
-                return venueDistance <= distance;
+                const matchesFood = foodFilter === "" || venue.food_type.toLowerCase().includes(foodFilter);
+                const matchesDistance = distanceFilter === "" || venue.distance_from_church.toLowerCase() <= (distanceFilter);
+                
+                return matchesFood && matchesDistance; // Both conditions must be true
             });
 
             loadTable(filteredVenues);
