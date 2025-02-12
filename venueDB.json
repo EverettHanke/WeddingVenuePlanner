@@ -1,0 +1,149 @@
+{
+    "venues": [
+      {
+        "name": "River Rock Grill",
+        "distance_from_church": "10 miles",
+        "location": "Maplewood Greens",
+        "has_view": false,
+        "type_of_view": "",
+        "number_people": 50,
+        "food_type": "Grill and Seafood",
+        "phone_number": "425-988-4489",
+        "web_link": "http://maplewoodgreens.com/weddings/#",
+        "brides_comment": "No view but good aesthetic"
+      },
+      {
+        "name": "Grill in the Woods",
+        "distance_from_church": "5 miles",
+        "location": "Covington",
+        "has_view": true,
+        "type_of_view": "Mountain View",
+        "number_people": "30 - 40",
+        "food_type": "Asian cuisine + American BBQ and burgers",
+        "phone_number": "877-253-9286",
+        "web_link": "http://www.druidsglengolf.com/events-catering/",
+        "brides_comment": ""
+      },
+      {
+        "name": "Farm 12",
+        "distance_from_church": "20 miles",
+        "location": "Puyallup",
+        "has_view": true,
+        "type_of_view": "Mountain View",
+        "number_people": 50,
+        "food_type": "Fancy white food",
+        "phone_number": "(253) 697-9486",
+        "web_link": "http://www.farm12.org/weddings",
+        "brides_comment": "Ooo La La look at me I’m white"
+      },
+      {
+        "name": "Cedarbrook",
+        "distance_from_church": "15 miles",
+        "location": "Seatac Airport Convention Building",
+        "has_view": false,
+        "type_of_view": "",
+        "number_people": 50,
+        "food_type": "American Cuisine",
+        "phone_number": "206-901-9268",
+        "web_link": "http://www.cedarbrooklodge.com/wedding-menus.php",
+        "brides_comment": ""
+      },
+      {
+        "name": "Toscanos",
+        "distance_from_church": "20 miles",
+        "location": "Puyallup",
+        "has_view": true,
+        "type_of_view": "Mountain View",
+        "number_people": 50,
+        "food_type": "Italian Food",
+        "phone_number": "(253) 864-8600",
+        "web_link": "http://toscanospuyallup.com/private-dining/",
+        "brides_comment": "View is not good"
+      },
+      {
+        "name": "Lobster Shop",
+        "distance_from_church": "30 miles",
+        "location": "Tacoma",
+        "has_view": true,
+        "type_of_view": "Water Port View",
+        "number_people": 25,
+        "food_type": "Seafood & Steak",
+        "phone_number": "206-957-3221",
+        "web_link": "http://www.lobstershop.com/private-dining/",
+        "brides_comment": "Very good menu"
+      },
+      {
+        "name": "Water Table",
+        "distance_from_church": "15 miles",
+        "location": "Renton",
+        "has_view": true,
+        "type_of_view": "Lake View",
+        "number_people": 50,
+        "food_type": "All food types, Seafood",
+        "phone_number": "425-207-2240",
+        "web_link": "http://www.waterstable.com/private-events/",
+        "brides_comment": "Lake view only in ballroom fits 25 people."
+      },
+      {
+        "name": "Island Lodge",
+        "distance_from_church": "15 miles",
+        "location": "Lake Tapps",
+        "has_view": true,
+        "type_of_view": "Lake View",
+        "number_people": 50,
+        "food_type": "Italian Food",
+        "phone_number": "253-862-6641",
+        "web_link": "http://islandlodge.net/banquets",
+        "brides_comment": ""
+      },
+      {
+        "name": "Reds Wine Bar",
+        "distance_from_church": "10 miles",
+        "location": "Kent Station",
+        "has_view": false,
+        "type_of_view": "",
+        "number_people": 50,
+        "food_type": "Burgers, Pasta, Wine",
+        "phone_number": "253-246-7341",
+        "web_link": "http://www.redswinebar-kent.com/#intro",
+        "brides_comment": ""
+      },
+      {
+        "name": "Paolos",
+        "distance_from_church": "10 miles",
+        "location": "Kent",
+        "has_view": false,
+        "type_of_view": "",
+        "number_people": 50,
+        "food_type": "Italian Food",
+        "phone_number": "253-850-2233",
+        "web_link": "http://www.paolositalian.com/",
+        "brides_comment": "Restaurant accepts closing down for our private wedding"
+      },
+      {
+        "name": "Anthonys",
+        "distance_from_church": "15 miles",
+        "location": "Des Moines",
+        "has_view": true,
+        "type_of_view": "Water Port View",
+        "number_people": 50,
+        "food_type": "Seafood",
+        "phone_number": "(206) 824-1947",
+        "web_link": "http://www.anthonys.com/restaurant/anthonys-homeport-des-moines/",
+        "brides_comment": ""
+      },
+      {
+        "name": "Verrazanos",
+        "distance_from_church": "20 miles",
+        "location": "Federal Way",
+        "has_view": true,
+        "type_of_view": "Mountain View",
+        "number_people": 60,
+        "food_type": "Buffet",
+        "phone_number": "253-946-4122",
+        "web_link": "http://verrazanos.com/banquets",
+        "brides_comment": "Kind of basic"
+      }
+    ]
+  }
+  
